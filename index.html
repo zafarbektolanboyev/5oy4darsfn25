@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  </head>
-  <body id="body">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body id="body">
     <div class="container">
-        <div class="buttons">
-            <button id="white">White mode</button>
-            <button id="dark">Dark mode</button>
-            <button id="auto">Auto them mode</button>
+        <header class="header__container container">
+            <div class="logo">
+                <a href="">
+                    <img src="./img/najottalim.png" width="50" height="50" alt="">
+                </a>
+            </div>
+            <div class="buttons">
+                <button id="auto">Auto theme</button>
+                <button id="dark">Dark theme</button>
+                <button id="light">Light theme</button>
+            </div>
+        </header>
+        <div class="hero__container container">
+            <div class="text">
+                <h4>Najot Ta'lim</h4>
+                <p>Dasturlash bilan <br> kelajakka qadam bosing!</p>
+            </div>
         </div>
-        <div class="blocks">
-            <div class="block">
-                <h1>Lorem, ipsum</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ullam nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus quos ipsum in corporis odit voluptatibus exercitationem labore eum sequi? Earum?</p>
-            </div>
-            <div class="block">
-                <h1>Lorem, ipsum</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ullam nobis.
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum odio suscipit nulla doloremque voluptates! Expedita dicta ratione sit animi dolores? </p>
-            </div>
-            <div class="block">
-                <h1>Lorem, ipsum</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, ullam nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eum laudantium eaque sapiente neque a. Et atque quia consequuntur aliquid?</p>
+        <div class="section__container container">
+            <div class="cards">
+                <div class="card" id="autoThem">
+                    <h3>Auto theme</h3>
+                    <p>Dasturlash, dizayn va marketing kabi zamonaviy kasblar o‘rgatiladigan markaz</p>
+                </div>
+                <div class="card" id="darkMode">
+                    <h3>Dark theme</h3>
+                    <p>Zamonaviy kasblar yordamida insonlar hayotini yaxshilovchi va kelajakka bo‘lgan ishonchni mustahkamlovchi maskan</p>
+                </div>
+                <div class="card" id="lighMode">
+                    <h3>Light theme</h3>
+                    <p>Bir vaqtning o‘zida 2500 dan ortiq o‘quvchilar va 350 dan ortiq katta jamoani bir maskanga yig‘a olgan ta‘lim va innovatsiya markazi.</p>
+                </div>
             </div>
         </div>
     </div>
-    <script src="./index.js"></script>
-  </body>
+    <script src="./js/index.js"></script>
+</body>
 </html>

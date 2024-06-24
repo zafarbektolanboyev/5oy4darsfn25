@@ -54,11 +54,4 @@
 // })
 
 
-// masala
-// 1
-const students = [
-    {ism: "Ali", yosh: 20, baholar: [90, 85, 88] },
-    {ism: "Vali", yosh: 21, baholar: [85, 87, 90] },
-    {ism: "Sami", yosh: 22, baholar: [88, 92, 84] },
-]
 
